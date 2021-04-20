@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Bad Script', cursive;
+
+}
+
+
+header p {
+    font-family: 'Bad Script', cursive;
+    font-size: 24px;
+}
+
+
+.ghostContainer1,
+.ghostContainer2, 
+.ghostContainer3,
+.ghostContainer4 {
+    animation: appear 5s forwards;
+    opacity: 0;
+}
+
+.ghostContainer2 {
+    animation-delay: 3s;
+}
+
+.ghostContainer3 {
+    animation-delay: 6s;
+}
+
+.ghostContainer4 {
+    animation-delay: 8s;
+}
+
+@keyframes appear {
+    0% {
+        /* width: 0; */
+        /* left: 0; */
+        opacity: 0;
+    }
+
+    100% {
+        /* width: 100%; */
+        /* left: 50%; */
+        opacity: 1;
+    }
+}

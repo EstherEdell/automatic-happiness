@@ -1,3 +1,4 @@
+
 const memes = [
 'meme23.png',
 'meme1.jpg',
@@ -45,3 +46,4 @@ document.querySelector('button').addEventListener('click', function(){
     document.querySelector('img').src = `./assets/${memes[randomMeme]}`;
 
 })
+
