@@ -43,3 +43,13 @@ header p {
         opacity: 1;
     }
 }
+
+.imageContainer {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    display: block;
+    animation: appear 3s;
+}
