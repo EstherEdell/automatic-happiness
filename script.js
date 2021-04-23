@@ -37,7 +37,16 @@ const memes = [
 'meme34.png',
 'meme35.png',
 'meme36.png',
-'meme37.png'
+'meme37.png',
+'meme38.png',
+'meme39.jpg',
+'meme40.jpg',
+'meme41.jpg',
+'meme42.jpg',
+'meme43.jpg',
+'meme44.jpg',
+'meme45.jpg',
+'meme46.jpg',
  ]
 
 document.querySelector('button').addEventListener('click', function(){ 
