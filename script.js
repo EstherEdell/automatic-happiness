@@ -1,6 +1,5 @@
 
 const memes = [
-'meme23.png',
 'meme1.jpg',
 'meme2.jpg',
 'meme3.jpg',
@@ -36,6 +35,7 @@ const memes = [
 'meme33.png',
 'meme34.png',
 'meme35.png',
+'meme36.jpg',
 'meme36.png',
 'meme37.png',
 'meme38.png',
