@@ -94,7 +94,7 @@ img {
 button {
     border: 2px solid black;
     border-radius: 10px;
-    background: transparent;
+    /* background: transparent; */
     width: 40%;
     align-self: center;
     padding: 15px 0;
@@ -108,12 +108,17 @@ button:hover {
     border: 2px solid grey;
 }
 
+.memePage {
+    background: url('./assets/background-paper.jpg');
+    background-size: cover;
+
+}
 .memes {
-    
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
 }
 .imageContainer {
-    width: 60%;
+    width: 50%;
     margin: 0 auto 40px;
 }
